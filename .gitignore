@@ -1,0 +1,103 @@
+# ============================================
+# TianDao-Economics .gitignore
+# ============================================
+
+# ============================================
+# Fichiers de compilation LaTeX
+# ============================================
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# ============================================
+# Fichiers de compilation Pandoc
+# ============================================
+*.tex   # Fichiers .tex intermédiaires générés par pandoc
+*.html
+*.epub
+*.docx
+*.odt
+
+# ============================================
+# Fichiers PDF (commenté car vous versionnez les PDF)
+# ============================================
+# *.pdf
+
+# ============================================
+# Répertoires temporaires et corbeilles
+# ============================================
+trash/
+*/trash/
+*/trash/*
+__pycache__/
+*.pyc
+
+# ============================================
+# Fichiers de l'éditeur et système
+# ============================================
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+
+# Emacs
+*#
+.#*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+Thumbs.db
+*.tmp
+
+# ============================================
+# Fichiers de données (optionnel)
+# ============================================
+*.log
+*.csv
+*.xlsx
+*.xls
+data/
+tmp/
+
+# ============================================
+# Fichiers spécifiques au dépôt TianDao-Economics
+# ============================================
+*.synctex(busy)
+*.pdfsync
+*.bak
+*.backup
+work_in_progress/
+drafts/
